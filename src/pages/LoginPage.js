@@ -33,7 +33,7 @@ export default function LoginPage(){
 
     const handleLogin = ()=>{
       dispatch(getUser({email,password}))
-      nav("/notes") 
+      
     }
     
      return <Flex padding={4} w="100%">
